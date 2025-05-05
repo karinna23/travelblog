@@ -1,0 +1,244 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BSIT-IVET 2025</title>
+    <link rel="icon" type="image/png" href="{% static 'img/plogo.png' %}">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-text">
+            Industrial Visit and Educational <br>
+            Tour 2025<br>
+            <br>
+            WMSU-BSIT        
+        </div>
+    </section>
+    <section class="intro">
+        <div class="intro-text">
+            "BYTES AND BEYOND:<br>
+
+            OUR 2025 IT ADVENTURE IN THE REAL TECH WORLD
+            
+            WHERE THE CODES AND PROGRAMMINGS COME TO LIFE
+            
+            AND MANY MORE EXTRA FUN AND LEARNINGS!"
+        </div>
+    </section>
+    <section class="gap">
+        <div class="gap-gap">
+        </div>
+    </section>
+    <section class="about-section">
+        <div class="about-left">
+            <img src="{% static 'img/intro.jpg' %}" alt="Travel Image">
+            <h2>What is IVET?</h2>
+        </div>
+        <div class="about-right">
+            <p>
+                An Industrial Visit and Educational Tour (IVET) is a learning activity where students visit companies, organizations, or significant sites related to their field of study. The goal is to bridge the gap between theoretical knowledge and real-world applications.<br>
+                <br>
+                During the visit, students gain firsthand insights into how industries operate, explore new technologies, understand workflows, and observe professional environments. It enhances their practical understanding, encourages career exploration, and promotes experiential learning outside the classroom.
+            </p>
+        </div>
+    </section>
+    <section class="bsit-tour-section">
+        <img src="{% static 'img/bsit-tour.png' %}" alt="BSIT Tour">
+        <div class="bsit-tour-text">
+            <h2>BSIT TOUR</h2>
+            <p>
+                The purpose of the educational tour was to provide students with practical exposure to real-world industry environments, bridging the gap between academic learning and professional application. Organized by the faculty of the Western Mindanao State University - College of Computing Studies, the tour aimed to enhance our understanding of how Information Technology concepts are applied in actual workplace settings. <br>
+                <br>
+
+As the pioneering batch to experience this initiative, the tour served as a preparatory step before our On-the-Job Training (OJT), which is the final requirement prior to graduation. This opportunity not only allowed us to observe industry practices firsthand but also helped us gain valuable insights that will guide us as we transition from students to future IT professionals.
+            </p>
+        </div>
+    </section>
+    <section class="gap1">
+        <h2>ESTABLISHMENTS WE VISITED!</h2>
+    </section>
+    <section class="image-text-button-section">
+        <div class="section-item">
+            <img src="{% static 'img/subic.jpg' %}" alt="Image Description">
+            <div class="section-content">
+                <h2>Vessel Traffic Management System</h2>
+                <p>
+                    First Stop!<br>
+                    📍 Subic Bay Freeport Zone<br>
+                    📅 April 08, 2025<br>
+                </p>
+                <button class="explore-btn" onclick="window.location.href='{% url 'myapp:freeport' %}'">Read More</button>
+            </div>
+        </div>
+    
+        <div class="section-item">
+            <img src="{% static 'img/subic1.jpg' %}" alt="Image Description">
+            <div class="section-content">
+                <h2>Subic Law Enforcement Department</h2>
+                <p>
+                    Second Stop!<br>
+                    📍 Subic Bay Metropolitan Authority<br>
+                    📅 April 08, 2025<br>
+                                </p>
+                <button class="explore-btn" onclick="window.location.href='{% url 'myapp:law' %}'">Read More</button>
+            </div>
+        </div>
+    
+        <!-- Add more blocks as needed -->
+        <div class="section-item">
+            <img src="{% static 'img/museo.jpg' %}" alt="Image Description">
+            <div class="section-content">
+                <h2>Museo ng Pampangulong Sasakyan</h2>
+                <p>
+                    Third Stop!<br>
+                    📍 Quezon Memorial Circle<br>
+                    📅 April 09, 2025<br>                
+                </p>
+                <button class="explore-btn" onclick="window.location.href='{% url 'myapp:museo' %}'">Read More</button>
+            </div>
+        </div>
+    </section>
+    <section class="image-text-button-section">
+        <div class="section-item1">
+            <img src="{% static 'img/bsp.png' %}" alt="Image Description">
+            <div class="section-content">
+                <h2>Bangko Sentral ng Pilipinas</h2>
+                <p>
+                    Fourth Stop!<br>
+                    📍 Security Plant Complex, Quezon City<br>
+                    📅 April 10, 2025<br>
+                </p>
+                <button class="explore-btn" onclick="window.location.href='{% url 'myapp:bsp' %}'">Read More</button>
+            </div>
+        </div>
+    
+        <div class="section-item1">
+            <img src="{% static 'img/hytec.jpg' %}" alt="Image Description">
+            <div class="section-content">
+                <h2>Hytec Power Incorporated                </h2>
+                <p>
+                    Fifth Stop!<br>
+                    📍 Cruzville, Novaliches, Quezon City<br>
+                    📅 April 10, 2025<br>
+                                </p>
+                    <button class="explore-btn" onclick="window.location.href='{% url 'myapp:hytec' %}'">Read More</button>
+            </div>
+        </div>
+    
+        <!-- Add more blocks as needed -->
+        <div class="section-item1">
+            <img src="{% static 'img/lrt.jpg' %}" alt="Image Description">
+            <div class="section-content">
+                <h2>Light Rail Transit Authority - Line 2</h2>
+                <p>
+                    Sixth Stop!<br>
+                    📍 Marcos Highway, Santolan, Pasig City<br>
+                    📅 April 11, 2025<br>              
+                </p>
+                <button class="explore-btn" onclick="window.location.href='{% url 'myapp:lrt' %}'">Read More</button>
+            </div>
+        </div>
+        <div class="section-item1">
+            <img src="{% static 'img/mmda.png' %}" alt="Image Description">
+            <div class="section-content">
+                <h2>Metropolitan Manila Development Authority</h2>
+                <p>
+                    Last Stop!<br>
+                    📍 Orense Corner, Edsa, Makati City<br>
+                    📅 April 11, 2025<br>                                                                                                                                                                                                       
+                </p>
+                <button class="explore-btn" onclick="window.location.href='{% url 'myapp:mmda' %}'">Read More</button>
+            </div>
+        </div>
+    </section>
+    <section class="gallery-section">
+  <div class="gallery-text">
+    <h2>BEYOND LEARNINGS!<br>
+        MORE FUN AND ADVENTURE PLACES THE WE VISITED! 😀🔭</h2>
+    <p>As part of our educational tour, we also visited some of the most iconic landmarks in Manila and Pasay. We explored Rizal Park, where we learned more about the life and heroism of Dr. Jose Rizal, deepening our appreciation for Philippine history. At Fort Santiago, we walked through the historic walls and dungeons that once played a crucial role during the Spanish colonial period. To cap off the day, we enjoyed some leisure time at SM Mall of Asia (MOA) in Pasay, where we bonded over meals, shopping, and the lively atmosphere, making the experience both educational and unforgettable.
+    </p>
+  </div>
+  <div class="image-grid">
+    <div class="grid-item"><img src="{% static 'img/1.jpg' %}" alt=""></div>
+    <div class="grid-item"><img src="{% static 'img/2.jpg' %}" alt=""></div>
+    <div class="grid-item"><img src="{% static 'img/8.jpg' %}" alt=""></div>
+    <div class="grid-item"><img src="{% static 'img/4.jpg' %}" alt=""></div>
+    <div class="grid-item"><img src="{% static 'img/5.jpg' %}" alt=""></div>
+    <div class="grid-item"><img src="{% static 'img/6.jpg' %}" alt=""></div>
+    <div class="grid-item"><img src="{% static 'img/12.jpg' %}" alt=""></div>
+    <div class="grid-item"><img src="{% static 'img/3.jpg' %}" alt=""></div>
+    <div class="grid-item"><img src="{% static 'img/9.jpg' %}" alt=""></div>
+    <div class="grid-item"><img src="{% static 'img/10.jpg' %}" alt=""></div>
+    <div class="grid-item"><img src="{% static 'img/11.jpg' %}" alt=""></div>
+    <div class="grid-item"><img src="{% static 'img/7.jpg' %}" alt=""></div>
+  </div>
+  <div class="gallery-text">
+    <p>April 07, 2025</p>
+  </div>
+</section>
+<section class="text-carousel-section">
+    <div class="text-left">
+      <p>During our educational tour, we had the opportunity to explore the <strong>Subic Bay Metropolitan Authority (SBMA),</strong> a well-developed freeport zone known for its organized environment and growing industries. One of the highlights of our visit was the <strong>Subic Bay Historical Center,</strong> where we learned about Subic’s rich past — from its early days as a naval base to its evolution into a thriving economic zone. The museum featured exhibits, artifacts, and stories that helped us better understand the area's importance to the country’s development. Along the way, we made a stop at a gas station in <strong>San Fernando, Pampanga,</strong> which was like a mini-commercial hub filled with famous stores, coffee shops, and fast-food chains. It was a refreshing break that allowed us to stretch, eat, and enjoy a bit of city life before continuing our journey. The quick stop added a fun and casual moment to our busy and enriching day.
+    <br>
+    <br>
+    <strong>April 08, 2025</strong>
+    </p>    
+    </div>
+    <div class="carousel-right">
+      <div class="carousel-wrapper">
+        <div class="slide-track">
+          <img src="{% static 'img/S1.jpg' %}" alt="Slide 1">
+          <img src="{% static 'img/S2.jpg' %}" alt="Slide 2">
+          <img src="{% static 'img/S3.jpg' %}" alt="Slide 3">
+          <img src="{% static 'img/S4.jpg' %}" alt="Slide 1">
+          <img src="{% static 'img/S5.jpg' %}" alt="Slide 2">
+          <img src="{% static 'img/S6.jpg' %}" alt="Slide 3">
+          <img src="{% static 'img/S7.jpg' %}" alt="Slide 1">
+          <img src="{% static 'img/S8.jpg' %}" alt="Slide 2">
+          <img src="{% static 'img/S9.jpg' %}" alt="Slide 3">
+          <img src="{% static 'img/S10.jpg' %}" alt="Slide 3">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bsit-tour-section">
+    <img src="{% static 'img/museum1.png' %}" alt="BSIT Tour">
+    <div class="bsit-tour-text">
+        <p style="text-align: center;">
+            We visited the <strong>National Museum of Natural History</strong> located at <strong>Agrifina Circle in Rizal Park, Manila,</strong> a renowned institution that showcases the rich biodiversity and natural heritage of the Philippines. The museum offered an immersive experience through its interactive displays, dioramas, and preserved specimens of flora and fauna, providing insights into the country’s diverse ecosystems, endemic species, and conservation efforts. One of the highlights was the <strong>Tree of Life</strong> structure, a symbol of the interconnectedness of all living things. We also had the opportunity to visit the <strong>Museo ni Manuel Quezon</strong>, which gave us a deeper appreciation of the life and legacy of the former Philippine president. Through historical artifacts, documents, and exhibits, we learned about his contributions to the country’s independence and governance. These visits enhanced our understanding of both natural and historical aspects of the Philippines, highlighting the value of education, leadership, and environmental stewardship.
+            <br>
+        <br>
+        <strong>April 09, 2025</strong>
+        </p>
+    </div>
+</section>
+<section class="gallery-section" style="background-color: #d5e4d9;">
+    <div class="gallery-text" style="color: #274e13;">
+        <p style="color: #274e13; font-weight: normal;">During our visit to <strong>Baguio City</strong>, often called the <strong>“Summer Capital of the Philippines,”</strong> we explored several of its most iconic and culturally rich destinations. We started at the <strong>Strawberry Farm</strong> in La Trinidad, Benguet, where we saw firsthand how strawberries are transformed into different kinds of products. We then visited the <strong>Bell Church</strong>, a serene Chinese temple adorned with traditional architecture and symbolic dragon motifs, offering a peaceful atmosphere for reflection. At the <strong>Philippine Military Academy (PMA)</strong>, we learned about the discipline, training, and values instilled in future Filipino military leaders. We also enjoyed leisure time at <strong>Burnham Park</strong>, where we strolled around its scenic lake and gardens. One of the highlights was our stop at <strong>Mines View Park</strong>, a popular overlook offering a panoramic view of the mining town of Itogon and the nearby mountain ranges, where we also saw traditional Igorot attire and crafts. As night fell, we explored the lively <strong>Night Market</strong> along <strong>Session Road</strong>, where local delicacies, clothes, and souvenirs brought the city’s vibrant street culture to life. The visit provided a blend of cultural appreciation, history, nature, and fun—making it a memorable part of our educational tour.</p>
+    </p>
+    </div>
+    <div class="image-grid">
+      <div class="grid-item"><img src="{% static 'img/B1.jpg' %}" alt=""></div>
+      <div class="grid-item"><img src="{% static 'img/B2.jpg' %}" alt=""></div>
+      <div class="grid-item"><img src="{% static 'img/B3.jpg' %}" alt=""></div>
+      <div class="grid-item"><img src="{% static 'img/B4.jpg' %}" alt=""></div>
+      <div class="grid-item"><img src="{% static 'img/B5.jpg' %}" alt=""></div>
+      <div class="grid-item"><img src="{% static 'img/B6.jpg' %}" alt=""></div>
+      <div class="grid-item"><img src="{% static 'img/B7.jpg' %}" alt=""></div>
+      <div class="grid-item"><img src="{% static 'img/B8.jpg' %}" alt=""></div>
+      <div class="grid-item"><img src="{% static 'img/B9.jpg' %}" alt=""></div>
+      <div class="grid-item"><img src="{% static 'img/B10.jpg' %}" alt=""></div>
+      <div class="grid-item"><img src="{% static 'img/B11.jpg' %}" alt=""></div>
+      <div class="grid-item"><img src="{% static 'img/B12.jpg' %}" alt=""></div>
+      <div class="grid-item"><img src="{% static 'img/B13.jpg' %}" alt=""></div>
+      <div class="grid-item"><img src="{% static 'img/B14.jpg' %}" alt=""></div>
+      <div class="grid-item"><img src="{% static 'img/B15.jpg' %}" alt=""></div>
+      <div class="grid-item"><img src="{% static 'img/B16.jpg' %}" alt=""></div>
+    </div>
+    <div class="gallery-text" style="color: #274e13;">
+      <p style="color: #274e13;">April 12-13, 2025</p>
+    </div>
+</body>
+</html>
